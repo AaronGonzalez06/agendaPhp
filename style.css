@@ -1,0 +1,14 @@
+.item{
+    height: 150px;
+}
+
+img, svg {
+    vertical-align: middle;
+    margin-left: 218px;
+}
+
+.prueba{
+
+    background-color: #dc3546 !important;
+
+}
