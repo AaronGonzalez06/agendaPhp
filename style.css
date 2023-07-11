@@ -12,3 +12,40 @@ img, svg {
     background-color: #dc3546 !important;
 
 }
+
+.menu{
+    list-style-type: none !important;
+}
+
+.enlace{
+    text-decoration: none !important;
+    color: black;
+    background-color: yellow;
+    height: 25px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px gray;
+    margin-right: 5%;
+    transition: transform 0.2s linear;
+}
+
+.enlace:hover{
+    transform: scale(1.1);
+}
+
+.menuMod{
+    flex-wrap: wrap !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.formMod{
+    margin-left: 40px;
+    padding: 5px;
+}
+
+.btnMod{
+    margin-left: 10px;
+}
