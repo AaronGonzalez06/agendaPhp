@@ -17,14 +17,14 @@
 
             <section id="content" class="col-12">
                 <div class="row">
-                    <section id="products" class="col-8 border">
+                    <section class="col-8 border d-flex sectionMod">
                         <h2>Tareas para hoy <?= date("Y-m-d")?></h2>
                         <hr>
 
                         <?php require_once './includes/tableNow.php'; ?>
 <h2>Tareas acabadas</h2>
 <?php require_once './includes/tableFinis.php'; ?>
-<img src="prueba.php" />
+<img class="grafica" src="prueba.php" />
 
                     </section>
                     <?php require_once './includes/aside.php'; ?>
