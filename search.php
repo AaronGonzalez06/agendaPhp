@@ -3,18 +3,15 @@
     <div class="container-fluid border">
         <div class="row">
             <header class="col-12 bg-primary text-while p-2 pt-3 pl-4">
-                Agenda Personal
+            <h1>Agenda personal</h1>
             </header>
 
-            <nav class="col-12 bg-secondary text-while">
-                <ul class="row w-50">
-                    <li class="col"><a href="index.php">inicio</a></li>
-                    <li class="col"><a href="pendientes.php">pendiente</a></li>
-                    <li class="col"><a href="next.php">Proximas tareas</a></li>
-                    <li class="col"><a href="history.php">historial</a></li>
-                </ul>
+            <nav class="col-12 bg-secondary text-while d-flex menuMod">
+                    <a class="enlace" href="index.php">inicio</a>
+                    <a class="enlace" href="pendientes.php">pendiente</a>
+                    <a class="enlace" href="next.php">Proximas tareas</a>
+                    <a class="enlace" href="history.php">historial</a>
                 <?php require_once './includes/search.php'; ?>
-
 
             </nav>
 
